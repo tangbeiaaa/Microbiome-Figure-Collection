@@ -1,0 +1,11 @@
+BM	deletion	68
+BM	duplication	3
+BM	insertion	39
+NM	deletion	33
+NM	duplication	2
+NM	insertion	19
+WM	deletion	65
+WM	duplication	1
+WM	insertion	27
+WM	inversion	4
+WM	transloc	4
