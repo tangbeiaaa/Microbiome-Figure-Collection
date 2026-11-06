@@ -43,10 +43,10 @@ are combined into the "Others" category.
 
 ## Input files
 
-Place the following files in the same directory as this R Markdown file:
+Place the following files in the `Data/` subdirectory:
 
-- `bracken.P.0.2`: Bracken phylum-level abundance table.
-- `metadata.txt`: sample metadata containing at least the columns `Samples` and `Group`.
+- `Data/bracken.P.0.2`: Bracken phylum-level abundance table.
+- `Data/metadata.txt`: sample metadata containing at least the columns `Samples` and `Group`.
 
 The metadata file should be tab-delimited and have a format similar to:
 
@@ -68,13 +68,13 @@ library(scales)
 
 ```{r read-data}
 species <- read.delim(
-  "bracken.P.0.2",
+  "Data/bracken.P.0.2",
   row.names = 1,
   check.names = FALSE
 )
 
 metadata <- read.delim(
-  "metadata.txt",
+  "Data/metadata.txt",
   header = TRUE,
   sep = "\t",
   check.names = FALSE
@@ -425,5 +425,6 @@ print(overall_mean)
 
 ---
 
+If you use this script, please cite:
 
-If you use this script, please cited 如果你使用本代码，请引用：
+如果你使用本代码，请引用：
