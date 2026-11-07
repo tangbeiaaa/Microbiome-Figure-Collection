@@ -1,0 +1,5 @@
+transloc 4
+inversion 4
+deletion 166
+insertion 85
+duplication 6
